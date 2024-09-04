@@ -1,7 +1,17 @@
+.text{
+    font-family: "Roboto",sans-serif;
+}
 header{
     display: flex;
     align-items: center;
-    
+    justify-content: space-between;    
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 102px;
 }
 .nav-panel{
     display:inline ;
@@ -11,7 +21,6 @@ header{
 #logo{
     margin-top: 57px;
     margin-left: 102px;
-    font-family: "Roboto",sans-serif;
     font-weight: 900;
     font-size: 38px;
     -webkit-text-stroke: 1px;
@@ -19,12 +28,21 @@ header{
 #logo-span{
     -webkit-text-fill-color: white;
 }
+button{
+    background-color: black;
+    color:white;
+    justify-content: center;
+    display:inline;
+    border: none;
+}
 .nav-button{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 18px;
     display: inline;
     margin-top: 65px;
+    justify-content: center;
+    margin-left: 21px;
 }
 #scroll{
     display: flex;
@@ -32,23 +50,49 @@ header{
 }
 #login-button{
     margin-top: 54px;
-    background-color: black;
-    color:white;
     width: 101px;;
     height: 44px;
-    justify-content: center;
-    display:inline;
-    border: none;
+   
 }
 main{
     display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#block-1{
+    margin-left: 78px;
+}
+img{
+    margin-right: 70px;
 }
 #main-text{
     font-family:"Roboto",sans-serif;
-    font-weight: 400px;
-    font-size: 60px;
-    -webkit-text-size-adjust: auto;
-}
+    font-weight: 400;
+    font-size: 60px;   
+} 
 #text-span{
-font-weight: 900px;
+font-weight: 700;
+}
+#main-text ~ span{
+    font-weight: 900;
+}
+#sec-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.button-in-main{
+    height: 44px;
+    width: 162.43px;
+}
+#sec-button-in-main{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+
 }
