@@ -4,29 +4,51 @@ header{
     
 }
 .nav-panel{
-    display: flex;
+    display:inline ;
+    flex-shrink: unset;
+    float:inline-end;
 }
 #logo{
     margin-top: 57px;
     margin-left: 102px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
+    font-family: "Roboto",sans-serif;
+    font-weight: 900;
     font-size: 38px;
-    border: 23px;
-    border-color: black;
     -webkit-text-stroke: 1px;
 }
-span{
+#logo-span{
     -webkit-text-fill-color: white;
-
 }
 .nav-button{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
-    display: flex;
+    display: inline;
+    margin-top: 65px;
 }
 #scroll{
     display: flex;
     
+}
+#login-button{
+    margin-top: 54px;
+    background-color: black;
+    color:white;
+    width: 101px;;
+    height: 44px;
+    justify-content: center;
+    display:inline;
+    border: none;
+}
+main{
+    display:flex;
+}
+#main-text{
+    font-family:"Roboto",sans-serif;
+    font-weight: 400px;
+    font-size: 60px;
+    -webkit-text-size-adjust: auto;
+}
+#text-span{
+font-weight: 900px;
 }
