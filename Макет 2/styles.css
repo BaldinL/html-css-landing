@@ -1,12 +1,16 @@
-.text{
+p,a,button,div{
     font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+button,a{
+    cursor: pointer;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;    
     align-items: center;
-
 }
 nav{
     display: flex;
@@ -36,17 +40,16 @@ button{
     border: none;
 }
 .nav-button{
-    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 18px;
     display: inline;
     margin-top: 65px;
     justify-content: center;
     margin-left: 21px;
+    transition: 0.3s;
 }
-#scroll{
-    display: flex;
-    
+.nav-button:hover{
+    font-size: 22px;
 }
 #login-button{
     margin-top: 54px;
@@ -62,6 +65,7 @@ main{
 }
 #block-1{
     margin-left: 78px;
+    display: inline;
 }
 img{
     margin-right: 70px;
@@ -79,20 +83,44 @@ font-weight: 700;
 }
 #sec-text{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
+}
+#buttons{
+    margin-top: 50px;
 }
 .button-in-main{
     height: 44px;
     width: 162.43px;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.button-in-main:hover{
+    background-color:darkgrey;
 }
 #sec-button-in-main{
     color: black;
     background-color: white;
     border: 1px solid black;
+    margin-left: 30px;
+    transition: 0.3s;
+}
+#sec-button-in-main:hover{
+    background-color:darkgrey;
 }
 footer{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    height: 50px;
+}
+#Vector{
+    height: 18px;
+    margin-right: 0;
+    margin-top: 0px;
+}
+#scroll{
+    display: flexbox;
     text-align: center;
     justify-content: center;
-    height: 50px;
-
 }
