@@ -1,4 +1,4 @@
-p,a,button{
+p,a,h1,button{
     font-family: "Montserrat",sans-serif;
     color: white;
     font-weight: normal;
@@ -22,4 +22,37 @@ nav{
 .nav-buttons{
     font-weight: 600;
     font-size: 19px;
+}
+main{
+
+}
+#main-scene{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img[src="Drone.svg"]{
+   position:absolute;
+   margin-top: 500px;
+}
+img[src="Dji-mavic.svg"]{
+    position: absolute;
+    margin-top: 500px;
+}
+#name-of-product{
+    margin-top: 500px;
+    align-items: center;
+}
+#main-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 54px;
+}
+#lower-text{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
 }
