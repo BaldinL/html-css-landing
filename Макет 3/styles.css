@@ -49,10 +49,14 @@ img[src="Dji-mavic.svg"]{
     font-weight: 600;
     font-size: 54px;
 }
-#lower-text{
+.lower-text{
     display: flex;
     justify-content: center;
     font-weight: 500;
     font-size: 18px;
-    align-items: center;
+    margin-bottom: 0px;
+
+}
+#lower-text-2{
+    margin-top: 0px;
 }
